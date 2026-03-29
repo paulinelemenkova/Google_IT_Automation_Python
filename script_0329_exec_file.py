@@ -1,7 +1,4 @@
-# There are 2 ways to manage files and directories in Python:
-# to use low-level functions in the OS module that mimics standard Linux commands.
-# to use the Pathlib module - an object-oriented interface to working with the file systems.
-#import os
+import os
 #os.getcwd()
 os.chdir("/Users/polinalemenkova/Documents/Python/Scripts_2026")
 os.getcwd()
@@ -15,4 +12,11 @@ exec(open("script_0329_reading_data.py").read())
 
 import runpy
 runpy.run_path("script_0329_reading_data.py")
+runpy.run_path("script_0329_time_convert.py")
+runpy.run_path("script_0329_standard_streams.py")
+runpy.run_path("script_0329_env_var.py")
+runpy.run_path("script_0329_inp_fun.py")
+runpy.run_path("script_0329_unittest.py")
 
+
+exec(open("script_0329_unittest.py").read())
